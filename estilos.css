@@ -65,4 +65,5 @@ body {
 
 .area-fullheight {    
     min-height: 100vw;    
+    background-color: #F7E1FF;
 }
