@@ -9,7 +9,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;    
     column-gap: 20px;
-    height: 200vh;    
+    
+}
+
+.container2 {
+    margin: 31px;
+    display: flex;
+    column-gap: 20px;
+    position: relative;    
+}
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
 
 
@@ -27,7 +41,7 @@ body {
     padding: 16px;
     height: 100%;
     border-radius: 200px;
-    background: #F7E1FF;
+    background: #EAD0FF;
 }
 
 .foto {
@@ -45,25 +59,56 @@ body {
     height: 200px;
     z-index: 100;
     border-radius: 50%;
-    background-color: #FCF4FF;    
+    background-color: #EAD0FF;    
 }
 
 .texto {
-    font-size: 30px;
+    font-size: 35px;
     color: #827586;
     font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
 }
 
+.texto1 {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #827586;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:underline;
+}
+
+.texto2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #827586;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.icons{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    margin-top: 300px;
+
+}
 
 .area {
-    padding: 16px;
+    padding: 20px;
     min-height: 150px; 
     border-radius: 20px;
-    background: #F7E1FF;    
+    padding: 50px;
+    background: #EAD0FF;    
 }
 
+.titulos{
+    text-align: center;
+    margin: 0px;
+    color: #827586;
+    }
 
 .area-fullheight {    
-    min-height: 100vw;    
-    background-color: #F7E1FF;
+    min-height: 70vw;    
+    background-color: #EAD0FF;
 }
+
+
