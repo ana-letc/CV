@@ -29,7 +29,7 @@ body {
 
     display: flex;
     flex-wrap:wrap;
-    gap: 20px;
+    gap: 10px;
     margin-top: 30px;
 
 }
@@ -37,7 +37,7 @@ body {
 
 .icons a{
     display: inline-flex;
-    width: 40px;
+    width: 30px;
     height: 40px;
     border-radius: 50%;
     justify-content: center;
@@ -195,3 +195,94 @@ transform: scale(1.0)rotate(30deg);
         display: flex;
 }
 
+h2{
+    color: #ffffff;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+label{
+    font-size: 15px;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+color:#140D31;
+padding: 7px;
+border-radius: 4px;
+width:95%;
+transition: all 0.5s;
+}
+input:focus{
+    border-radius: 16px;
+    
+}
+
+textarea{
+color:#140D31;
+padding: 5px;
+border-radius: 4px;
+transition: all 0.5s;
+}
+textarea:focus{
+    border-radius: 16px;
+}
+
+
+.button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background:transparent;
+    border: 2px solid #F5AB00;
+    color:#ffffff;
+    transition: all 1s;
+}
+
+.button:hover{
+    background: #F5AB00;
+    border-radius: 16px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#140D31;
+    flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.btn{
+    padding: 15px 55px;
+    text-decoration:none;
+    background: #ffffff;
+    color:#140D31;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 16px;
+    background: #F5AB00;
+}
