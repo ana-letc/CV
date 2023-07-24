@@ -903,6 +903,7 @@ bottom: 1rem;
 
 .video-container ul{
 
+    
 
     display: grid;
 
@@ -935,6 +936,8 @@ li {
     border-radius: .8rem;
 
     transition: all .3s;
+
+    list-style: none;
 
 }
 
